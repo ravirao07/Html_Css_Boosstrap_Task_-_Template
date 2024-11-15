@@ -1,0 +1,594 @@
+@media(max-width:1024px)
+{
+   .profile-contain
+   {
+        width: 90%;
+        display: flex;
+        justify-content: space-evenly;
+   }
+   .profile-contain .title
+   {
+        width: 57%;
+   }
+   .profile-contain .baner
+   {
+        width: 40%;
+   }
+   .profile-contain .baner img
+   {
+        width: 100%;
+        height: auto;
+        margin-left: -2px;
+        margin-top: 35px;
+   }
+   .title-2
+   {
+        width: 16%;
+   }
+   .feture ul
+   {
+    width: 41%;
+    margin: auto;
+   }
+   .title-3
+   {
+        width: 17%;
+   }
+   .blog-poster-main .poster-1 .contain
+   {
+     font-size: 12px;
+   }
+   .blog-poster-main .poster-2 .contain-2
+   {
+     font-size: 12px;
+   }
+   .blog-poster-main .poster-2 .poster-2-1 .contain-3
+   {
+     font-size: 12px;
+   }
+   .fotter-main
+   {
+        width: 100%;
+        height: 600px;
+   }
+   .fotter-centair
+   {
+    width: 80%;
+   }
+   .data
+    {
+        width: 45%;
+        height: 40px;
+    }
+    #tx1
+    {
+        width: 42%;
+    }
+    #tx2
+    {
+        width: 42%;
+    }
+   .addres
+   {
+        left: 550px;
+   }
+   .btn
+   {
+        left: 550px;
+   }
+   
+
+}
+@media(max-width:768px)
+{
+    .mavi-manu
+    {
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+    }
+    .logo
+    {
+        width: 20%;
+        margin: auto;
+    }
+    .navigation
+    {
+        width: 75%;
+    }
+    .title
+    {
+        width: 100%;
+
+    }
+    .title h3
+    {
+        text-align: center;
+        display: block;
+        width: 20%;
+        font-size: 12px;
+    }
+    .title h3::after
+    {
+        content: ' ';
+        position: relative;
+        top: 0%;
+        left: 0%;
+        width: 30%;
+        margin: auto;
+        display: block;
+        height: 5px;
+        border-bottom: 2px solid black;
+    }
+
+    .options
+    {
+        margin-top: 20px;
+        width: 80%;
+        margin: auto;
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 50%;
+    
+    }
+    .option-contain
+    {
+        margin-bottom: 18px;
+        width: 35%;
+        padding: 5%;
+        height: 210px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.6); 
+    }
+    .option-contain1
+    {
+        margin-bottom: 18px;
+        width: 35%;
+        padding: 5%;
+        height: 210px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.6); 
+    }
+    .profile
+    {
+       display: block; 
+       height:auto;
+    }
+    .profile-contain
+    {
+        padding-bottom: 10px;
+        display: block;
+        width: 90%;
+    }
+    .profile-contain .title 
+    {
+       width: 100%;
+       padding-bottom: 10px;
+       margin-top: 20px;
+    }
+    .profile-contain .baner
+    {
+        display: block;
+        width: 100%;
+    }
+    .profile-contain .baner img
+    {
+        margin-top: -50px;
+        width: 100%;
+
+    }
+    .title-2
+    {
+        width: 21%;
+    }
+    .feture ul
+    {
+        width: 55%;
+        margin: auto;
+    }
+    .poster-main-1
+    {
+        width: 80%;
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+    .poster-main-1 .poster-1
+    {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    .poster-main-1 .poster-2
+    {
+        width: 40%;
+    }
+
+    .poster-main-2
+    {
+        width: 80%;
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+    .poster-main-2 .poster-1
+    {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+    .poster-main-2 .poster-2
+    {
+        width: 40%;
+    }
+
+    .blog
+    {
+        background-image: url('images/blog-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 1200px;
+        margin-bottom: 20px;
+    }
+    .title-3
+    {
+         width: 22%;
+         margin: auto;
+         margin-bottom: 30px;
+         /* background-color: yellow; */
+    }
+    .blog-poster-main
+    {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-poster-main .poster-1
+    {
+        width: 100%;
+        position: relative;
+        display: block;
+        /* border: 2px solid yellow; */
+    }
+    .blog-poster-main .poster-1 img
+    {
+        width: 100%;
+        height: 400px;
+    }
+    .blog-poster-main .poster-1 .contain
+    {
+        position: absolute;
+        top: 326px;
+        background-color: black;
+        /* border: 2px solid red; */
+        color: white;
+        opacity: 0.5;
+        width: 100%;
+        height: 75px;
+    }
+    .blog-poster-main .poster-2
+    {
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+        position: relative;
+        /* border:  2px solid yellow; */
+    }
+    .blog-poster-main .poster-2 .contain-2
+    {
+        position: absolute;
+        top: 200px;
+        background-color: black;
+        /* border: 2px solid red; */
+        color: white;
+        opacity: 0.5;
+        width: 100%;
+        height: 75px;
+    }
+    .blog-poster-main .poster-2 .poster2-1
+    {
+        display: block;
+        width: 100%;
+        margin-top: 30px;
+        position: relative;
+    }
+    .blog-poster-main .poster-2 .poster2-1 .contain-3
+    {
+        position: absolute;
+        top: 200px;
+        background-color: black;
+        /* border: 2px solid red; */
+        color: white;
+        opacity: 0.5;
+        width: 100%;
+        height: 75px;  
+    }
+    
+    .card
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+    .card-1
+    {
+        /* display: flex;
+        flex-wrap: wrap; */
+        width: 46%;
+    }
+    .card-2
+    {
+        width: 46%;
+    }
+    .fotter-main
+    {
+        background-image: url('images/contact-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 1000px;
+        margin-bottom: 50px;
+        position: relative;
+    }
+    .title-5
+    {
+         width: 22%;
+    }
+    .fotter-centair
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .map
+    {
+        display: block;
+        width: 100%;
+    } 
+    .data
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }   
+    #tx1
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+    #tx2
+    {
+        width: 100%;
+        margin-top: 25px;
+    }
+    .addres
+    {
+       position: absolute;
+       left: 77px;
+       top: 620px;
+       margin-top: 35px;
+    }
+    .btn
+    {
+        position: absolute;
+        top: 820px;
+        left: 73px;
+    }
+    .bottom-main
+    {
+        width: 100%;
+        height: 100px;
+    }
+    .footer-bottom
+    {
+        margin-top: -60px;
+    }
+    .footer-bottom
+    {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    .discriptioin
+    {
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width:480px)
+{
+    .mavi-manu
+    {
+        width: 100%; 
+        display: block;
+
+    }
+    .navigation ul
+    {
+        display: block;
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+    .header-contain
+    {
+        margin-top: -30%;
+    }
+    .options
+    {
+        display: block;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom:175%;
+        
+    }
+    .option-contain
+    {
+
+        display: block;
+        width: 80%;
+        height: 210px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.6); 
+    }
+    .option-contain1
+    {
+        display: block;
+        width: 80%;
+        height: 210px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.6); 
+    }
+    .title-2
+    {
+        width: 33%;
+    }
+    .feture ul
+    {
+        width: 87%;
+        margin: auto;
+    }
+    .poster-main-1
+    {
+        display: block;
+    }
+    .poster-main-1 .poster-1
+    {
+        width: 100%;
+    }
+    .poster-main-1
+    {
+        display: block;
+    }
+    .poster-main-1 .poster-2    
+    {
+        width: 100%;
+    }
+
+    .poster-main-2
+    {
+        display: block;
+    }
+    .poster-main-2 .poster-1
+    {
+        width: 100%;
+    }
+    .poster-main-2
+    {
+        display: block;
+    }
+    .poster-main-2 .poster-2    
+    {
+        width: 100%;
+    }
+    .title-3
+    {
+        width: 35%;
+    }
+
+    .card-1
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;  
+    }
+    .card-1 h2
+    {
+        width: 15%;
+        margin-top: -50px;
+        margin-left: 34px;
+        margin-right: -94px;
+    }
+    .card-1 p
+    {
+        margin-top: 50px;
+    } 
+    
+    .card-2
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-2 h2
+    {
+        width: 15%;
+        margin-top: -50px;
+        margin-left: 9px;
+        margin-right: -91px;
+    }
+    .card-2 p
+    {
+        margin-top: 50px;
+    }
+    .title-5
+    {
+        width: 26%;
+    }
+    .addres
+    {
+        margin-left: -28px;
+    }
+    .btn
+    {
+        margin-top: 20px;
+        margin-left: -20px;
+    }
+    .fotter-icon ul a
+    {
+        padding: 10px 6px;
+        font-size: 20px;
+    }
+    .discriptioin
+    {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    #fas
+{
+    background-color:#a2cf8d;
+    color: #202628;
+    border-radius: 50%;
+    padding: 7px;
+}
+    #twi
+{
+    background-color:#a2cf8d;
+    color: #202628;
+    border-radius: 50%;
+    padding: 7px;
+}
+#lin
+{
+    background-color:#a2cf8d;
+    color: #202628;
+    border-radius: 50%;
+    padding: 7px;
+}
+#rs
+{
+    background-color:#a2cf8d;
+    color: #202628;
+    border-radius: 50%;
+    padding: 7px;
+}
+#dri
+{
+    background-color:#a2cf8d;
+    color: #202628;
+    border-radius: 50%;
+    padding: 7px;
+}
+
+}

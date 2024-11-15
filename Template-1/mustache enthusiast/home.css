@@ -1,0 +1,241 @@
+*
+{
+	margin: 0px;
+	padding:0px;
+}
+header
+{
+	height:100px;
+	width:100%;
+	margin:3% 0%;
+}
+.header-logo
+{
+	width:20%;
+	height:100px;
+	margin:auto;
+}
+img
+{
+    width:100%;
+	margin:0%;
+	padding:0%;
+    
+}
+.nav-menu
+{
+	width:100%;
+	height:50px;
+}
+ul
+{
+	width:30%;
+	margin:auto;
+}
+li
+{
+	float:left;
+	list-style:none;
+}
+li a
+{
+	padding:10px 20px;
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+.active
+{
+    color: green;
+}
+.banner
+{
+    width: 100%;
+  margin-top: 8%;
+ background-image: url('https://freewebsitetemplates.com/preview/mustacheenthusiast/images/the-beacon.jpg');
+ height: 600px;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+}
+.baner-tit
+{
+    width:30%;
+   
+}
+h1
+{
+    width: 90%;
+    margin-left: 158%;
+    margin-top: 20%;
+    text-align: center;
+    display: inline-block;
+    background-color:white;
+    color: black;
+    font-size: 30px;
+}
+.sec
+{
+    width: 94%;
+    margin-left: 158%;
+    margin-top: 8%;
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin: rigth;
+    font-size: 30px;
+    font-weight: normal;
+}
+.thir
+{
+    width: 103%;
+    margin-left: 158%;
+    margin-top: 8%;
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin: rigth;
+    font-size: 30px;
+    font-weight: normal;  
+}
+.four
+{
+    width: 80%;
+    margin-left: 158%;
+    margin-top: 8%;
+    text-align: center;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin: rigth;
+    font-size: 30px;
+    font-weight: normal; 
+}
+span
+{
+    width: 40%;
+    height: 50px;
+    margin-left: 158%;
+    margin-top: 8%;
+    display: inline-block;
+    background-color: teal;
+    color: white;
+    margin: rigth;
+    font-size: 30px;
+    font-weight: normal;  
+    text-align: center;
+    padding-top: 4%;
+
+}
+span:hover
+{
+    background-color: turquoise;
+    color: white;
+}
+.main-galary
+{
+    width:50%;
+    margin: auto;
+    margin-top: 2%;
+    height: 300px;
+}
+.galary1
+{
+    height: 250px;
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+.galary1 img
+{
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+}
+.galary2
+{
+    height: 250px;
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+.galary2 img
+{
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+}
+.galary3
+{
+    height: 250px;
+    width: 30%;
+    float: left;
+    padding: 10px
+}
+.galary3 img
+{
+    width: 100%;
+    height: 250px;
+    border: 1px solid black;
+}
+.galary1 p
+{
+    text-align: center;
+    font-weight: bold;
+    margin:10px ;
+    font-size: 26px;
+}
+.galary2 p
+{
+    text-align: center;
+    font-weight: bold;
+    margin:10px ;
+    font-size: 26px;
+}
+.galary3 p
+{
+    text-align: center;
+    font-weight: bold;
+    margin:10px ;
+    font-size: 26px;
+}
+footer
+{
+    margin-top: 60px;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin-bottom: 45px;
+}
+.copyby
+{
+    margin-top: 2%;
+    width: 50%;
+    line-height: 80px;
+    float: left;
+    padding-left: 20%;
+    font-size: 22px
+}
+.icon
+{
+    margin-top: 1.5%;
+    width: 20%;
+    float: right;
+    margin-right: 5%;
+    line-height: 100px;
+    font-size: 26px;
+}
+i
+{
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border: 2px solid white;
+}
+i:hover
+{
+    background-color:white ;
+    color: black;
+}

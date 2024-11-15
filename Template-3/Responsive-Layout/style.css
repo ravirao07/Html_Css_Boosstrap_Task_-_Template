@@ -1,0 +1,771 @@
+*
+{
+    margin: 0px;
+    padding: 0;
+}
+.header
+{
+    background-image: url('images/slide_01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+}
+.mavi-manu
+{
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    /* position: fixed; */
+    display: flex; 
+    justify-content: space-between;
+}
+/* .mavi-manu
+{
+
+    top: 700px;
+    z-index: 1;
+    background-color: #f4f4f4;
+} */
+.logo
+{
+    /* width: 40%;
+    margin: auto;
+    border: 2px solid black; */
+}
+.navigation
+{
+    /* width: 35%;
+     margin: auto; */
+}
+.navigation ul
+{
+    display: flex;
+    list-style: none;
+}
+.navigation ul li
+{
+    text-align: center;
+}
+.navigation ul li a
+{
+    text-decoration:none;
+    padding: 10px 20px;
+}
+.header-contain
+{
+    text-align: center;
+    position: relative;
+    top: 35%;
+    color: white;
+}
+.header-contain p
+{
+    
+    text-align: center;
+    margin: 10px;
+}
+button
+{
+    margin-top: 13px;
+    padding: 10px;
+    border-radius: 30px;
+    border: transparent;
+    background-color:#a2cf8d;
+    color: white;
+}
+.header-contain:hover button
+{
+    background-color: lightgreen;
+}
+
+
+ .title
+{
+    margin-top: 6%;
+    margin-bottom:4%;
+}
+.title h3
+{
+    text-align: center;
+    margin: auto;
+    
+}
+.title h3::after
+{
+    content: ' ';
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 4%;
+    margin: auto;
+    display: block;
+    height: 5px;
+    border-bottom: 2px solid black;
+}
+.options
+{
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.option-contain1:hover
+{
+    background-color:#a2cf8d;
+}
+.option-contain:hover
+{
+    background-color:#a2cf8d;
+}
+.option-contain
+{
+    width: 23%;
+    height: 210px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6); 
+}
+
+.option-contain h4
+{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.option-contain p
+{
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+} 
+ .option-contain i
+{
+    font-size: 30px;
+    color: green;
+    padding: 20px;
+}  
+
+.option-contain1
+{
+    width: 23%;
+    height: 210px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.6); 
+}
+
+.option-contain1 h4
+{
+    width: 63%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.option-contain1 p
+{
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+} 
+ .option-contain1 i
+{
+    font-size: 30px;
+    color: green;
+    padding: 20px;
+}  
+.profile
+{
+    background-image: url('images/what-we-do-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 30px;
+}
+.profile-contain
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.profile-contain .title
+{
+    width: 50%;
+    margin-top: 120px;
+    color: white;
+}
+.profile-contain .baner
+{
+    width: 50%;
+    margin-top: 85px;
+}
+.profile-contain .baner img
+{
+    width: 100%;
+    height: 440px;
+    margin-left:50px;
+}
+.profile-contain .title h1
+{
+    font-size: 30px;
+}
+.profile-contain .title p
+{
+    font-size: 17px;
+}
+.title .bt
+{
+    background-color: white;
+    color: black;
+}
+.bt:hover
+{
+    background-color:black;
+    color: white;
+}
+button:hover
+{
+    background-color: lightgreen;
+}
+
+.title-2
+{
+    width: 13%;
+    text-align: center;
+    margin: auto;
+}
+.title-2::after
+{
+    content: ' ';
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 30%;
+    margin-left: 80px;
+    display: block;
+    height: 5px;
+    border-bottom: 2px solid black;
+}
+.feture
+{
+    margin-bottom: 30px;
+}
+.feture ul
+{
+   padding-top: 30px;
+    width: 25%;
+    margin: auto;
+    display: flex;
+    list-style: none;
+}
+.feture ul li a
+{
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.poster-main-1
+{
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.poster-main-1 .poster-1
+{
+    width: 23%;
+    position: relative;
+}
+.poster-main-1 .poster-1 .pos-1
+{
+
+    display: none;
+}
+.poster-main-1 .poster-1:hover .pos-1
+{
+    display: block;
+    opacity: 0.9;
+    position: absolute;
+    top: -2px;
+    width: 100%;
+    height: 252px;
+    background-color: lightgreen;
+}
+.poster-main-1 .poster-1 img
+{
+    width: 100%;
+    height: 250px;
+}
+
+
+
+.poster-main-1 .poster-2
+{
+    width: 23%;
+    position: relative;
+}
+.poster-main-1 .poster-2 .pos-1
+{
+
+    display: none;
+}
+.poster-main-1 .poster-2:hover .pos-1
+{
+    display: block;
+    opacity: 0.9;
+    position: absolute;
+    top: -2px;
+    width: 100%;
+    height: 252px;
+    background-color: lightgreen;
+}
+.poster-main-1 .poster-2 img
+{
+    width: 100%;
+    height: 250px;
+}
+.poster-main-2
+{
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.poster-main-2 .poster-1
+{
+    width: 23%;
+    position: relative;
+}
+.poster-main-2 .poster-1 .pos-2
+{
+
+    display: none;
+}
+.poster-main-2 .poster-1:hover .pos-2
+{
+    display: block;
+    opacity: 0.9;
+    position: absolute;
+    top: -2px;
+    width: 100%;
+    height: 252px;
+    background-color: lightgreen;
+}
+.poster-main-2 .poster-1 img
+{
+    width: 100%;
+    height: 250px;
+}
+.poster-main-2
+{
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.poster-main-2 .poster-2
+{
+    width: 23%;
+    position: relative;
+}
+.poster-main-2 .poster-2 .pos-2
+{
+
+    display: none;
+}
+.poster-main-2 .poster-2:hover .pos-2
+{
+    display: block;
+    opacity: 0.9;
+    position: absolute;
+    top: -2px;
+    width: 100%;
+    height: 252px;
+    background-color: lightgreen;
+}
+.poster-main-2 .poster-2 img
+{
+    width: 100%;
+    height: 250px;
+}
+.blog
+{
+    background-image: url('images/blog-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    margin-bottom: 100px;
+
+}
+.title-3
+{
+    width: 10%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-left: 47%;
+    padding-top: 90px;
+    margin-bottom: 50px;
+}
+.title-3::after
+{
+    content: ' ';
+    position: relative;
+    top: 0%;
+    left: 0%;
+    width: 30%;
+    margin-left: 70px;
+    display: block;
+    height: 5px;
+    border-bottom: 2px solid white;
+}
+.blog-poster-main
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.blog-poster-main .poster-1
+{
+    width: 50%;
+    position: relative; 
+}
+.blog-poster-main .poster-1 img
+{
+    width: 100%;
+    height: 550px;
+}
+.blog-poster-main .poster-2
+{
+    width: 45%;
+    position: relative;
+}
+.blog-poster-main .poster-2 img
+{
+    width: 100%;
+    height: 250px;
+}
+.blog-poster-main .poster-2 h3
+{
+    margin: 10px;
+    margin-left: 20px;
+}
+.blog-poster-main .poster-2 p
+{
+    margin-left: 20px;
+}
+.blog-poster-main .poster-2-1
+{
+    margin-top: 20px;
+}
+.blog-poster-main .poster-2 .poster-2-1 h3
+{
+    margin: 10px;
+    margin-left: 20px;
+}
+.blog-poster-main .poster-2 .poster-2-1 p
+{
+    margin-left: 20px;
+}
+.blog-poster-main .poster-1 .contain
+{
+    position: absolute;
+    top: 478px;
+    background-color: black;
+    /* border: 2px solid red; */
+    color: white;
+    opacity: 0.5;
+    width: 100%;
+    height: 75px;
+}
+.blog-poster-main .poster-1 .contain h3
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.blog-poster-main .poster-1 .contain p
+{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.blog-poster-main .poster-2 .contain-2
+{
+    position: absolute;
+    top:190px;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+    width: 100%;
+    height: 75px;
+}
+.blog-poster-main .poster-2 .contain h3
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.blog-poster-main .poster-2 .contain p
+{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.blog-poster-main .poster-2 .poster-2-1
+{
+    margin-top: 50px;
+}
+.blog-poster-main .poster-2 .poster-2-1 .contain-3
+{
+    position: absolute;
+    top: 477px;
+    background-color: black; 
+    color: white;
+    opacity: 0.8;
+    width: 100%;
+    height: 75px;
+}
+.card
+{
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+    line-height: 30px;
+    margin-bottom: 50px;
+    /* flex-wrap: wrap; */
+
+}
+.card-1 h2
+{
+    margin-top: 20px;
+    color: green;
+}
+.card-2 h2
+{
+    margin-top: 20px;
+    color: green;
+}
+.card-3 h2
+{
+    margin-top: 20px;
+}
+.card-4 h2
+{
+    margin-top: 20px;
+}
+.card-1
+{
+    width: 23%;
+    height: 100px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3); 
+    background-color: #f4f4f4;;
+    margin-bottom: 20px;
+}
+.card-2
+{
+    width: 23%;
+    height: 100px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3); 
+    background-color: #f4f4f4;;
+    margin-bottom: 20px;
+}
+
+
+.fotter-main
+{
+    background-image: url('images/contact-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    /* margin-bottom: 50px; */
+    position: relative;
+}
+.title-5
+{
+    width: 14%;
+    margin: auto;
+    padding-top: 90px;
+    margin-bottom: 50px;
+    color: white;
+}
+.title-5::after
+{
+    content: ' ';
+    position: relative;
+    top: 0%;
+    left: -5%;
+    width: 25%;
+    margin-left: 40px;
+    display: block;
+    height: 5px;
+    border-bottom: 2px solid white;
+}
+.fotter-centair
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid white; */
+}
+.map
+{
+    width: 50%;
+}
+.map img
+{
+    width: 100%;
+    height: 300px;
+}
+.data
+{
+    width: 45%;
+    height: 40px;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+}
+.data input
+{
+    width: 45%;
+    height: 30px;
+    background: transparent;
+    /* margin-top: 20px; */
+}
+.addres
+{
+
+    margin-top: 20px;
+    position: absolute;
+    top: 220px;
+    left: 1025px;
+    
+}
+.btn
+{
+   position: absolute;
+   top: 430px;
+   left: 1040px;
+}
+.btn:hover button
+{
+    background-color: lightgreen;
+}
+
+.bottom-main
+{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+.footer-bottom
+{
+    /* background-color: yellow; */
+    width: 80%;
+    margin: auto;
+    height:80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.discriptioin p
+{
+    color: white;
+}
+.fotter-icon ul
+{
+    display: flex;
+    list-style: none;
+}
+.fotter-icon ul a
+{
+    padding: 20px 10px;
+    font-size: 25px;
+}
+#fas
+{
+    background-color:#a2cf8d;
+    color: #202628;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fotter-icon ul :hover #fas
+{
+    background-color:lightgreen;
+}
+
+#twi
+{
+    background-color:#a2cf8d;
+    color: #202628;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fotter-icon ul :hover #twi
+{
+    background-color:lightgreen;
+}
+
+#lin
+{
+    background-color:#a2cf8d;
+    color: #202628;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fotter-icon ul :hover #lin
+{
+    background-color:lightgreen;
+}
+
+#rs
+{
+    background-color:#a2cf8d;
+    color: #202628;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fotter-icon ul :hover #rs
+{
+    background-color:lightgreen;
+}
+
+#dri
+{
+    background-color:#a2cf8d;
+    color: #202628;
+    border-radius: 50%;
+    padding: 10px;
+}
+.fotter-icon ul :hover #dri
+{
+    background-color:lightgreen;
+}
+
+
+
+
+
+
+
